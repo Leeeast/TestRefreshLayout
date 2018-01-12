@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:gravity="center"
+    android:minWidth="75dp"
+    android:orientation="vertical">
+
+    <ImageView
+        android:id="@+id/riv_user_head"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:background="@color/colorPrimaryDark"
+        android:scaleType="fitXY" />
+
+    <TextView
+        android:id="@+id/tv_user_name"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="6dp"
+        android:includeFontPadding="false"
+        android:text="用户一线天"
+        android:textColor="#ffffff"
+        android:textSize="12sp" />
+
+    <TextView
+        android:id="@+id/tv_award"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dp"
+        android:includeFontPadding="false"
+        android:text="￥30"
+        android:textColor="#FFE8466F"
+        android:textSize="12sp" />
+</LinearLayout>
